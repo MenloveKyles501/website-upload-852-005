@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>搜索影片-亚洲经典电影-经典影片合集-高清视频在线播放</title>
+  <meta name="description" content="搜索亚洲经典电影、电影合集、高清播放、年份、地区、类型与标签。">
+  <meta name="keywords" content="电影搜索,影片筛选,亚洲经典电影,亚洲电影,经典影片,高清播放,电影合集,高分电影">
+  <meta name="theme-color" content="#020617">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <script defer src="./assets/js/data.js"></script>
+</head>
+<body class="">
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="./index.html" aria-label="亚洲经典电影">
+      <span class="brand-mark">影</span>
+      <span class="brand-text">亚洲经典电影</span>
+    </a>
+    <nav class="desktop-nav" aria-label="主导航">
+        <a class="nav-link " href="./index.html">首页</a>
+        <a class="nav-link " href="./categories.html">分类</a>
+        <a class="nav-link " href="./ranking.html">排行榜</a>
+        <a class="nav-link is-active" href="./search.html">搜索</a>
+    </nav>
+    <form class="quick-search" action="./search.html" method="get">
+      <input type="search" name="q" placeholder="搜索片名 / 类型 / 年份" aria-label="搜索影片">
+      <button type="submit">搜索</button>
+    </form>
+    <button class="menu-toggle" type="button" data-menu-button aria-label="打开导航">菜单</button>
+  </div>
+  <nav class="mobile-nav" data-mobile-menu aria-label="移动导航">
+      <a class="mobile-nav-link " href="./index.html">首页</a>
+      <a class="mobile-nav-link " href="./categories.html">分类</a>
+      <a class="mobile-nav-link " href="./ranking.html">排行榜</a>
+      <a class="mobile-nav-link is-active" href="./search.html">搜索</a>
+  </nav>
+</header>
+<main class="page-main">
+<section class="page-hero shell search-hero">
+  <p class="section-kicker">影片搜索</p>
+  <h1>搜索与筛选</h1>
+  <p>输入片名、年份、地区、类型或标签，快速找到想看的经典影片。</p>
+  <form class="search-panel" data-search-form>
+    <input id="searchInput" type="search" name="q" placeholder="搜索片名、地区、类型、年份或标签" autocomplete="off">
+    <select id="typeFilter" aria-label="类型筛选">
+      <option value="">全部类型</option>
+    </select>
+    <select id="regionFilter" aria-label="地区筛选">
+      <option value="">全部地区</option>
+    </select>
+    <select id="yearFilter" aria-label="年份筛选">
+      <option value="">全部年份</option>
+    </select>
+    <button type="submit">筛选</button>
+  </form>
+</section>
+<section class="section shell">
+  <div class="section-heading">
+    <div>
+      <p class="section-kicker">筛选结果</p>
+      <h2 id="searchTitle">影片片单</h2>
+    </div>
+  </div>
+  <div class="movie-grid featured-grid" id="searchResults"></div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <strong>亚洲经典电影</strong>
+      <p>收录亚洲经典电影内容，覆盖不同年代与地区的代表性影片，方便查看经典片单。</p>
+    </div>
+    <nav class="footer-nav" aria-label="底部导航">
+      <a href="./index.html">首页</a>
+      <a href="./categories.html">分类</a>
+      <a href="./ranking.html">排行榜</a>
+      <a href="./search.html">搜索</a>
+    </nav>
+    <p class="copyright">© 2026 亚洲经典电影 · 亚洲经典电影-经典影片合集-高清视频在线播放</p>
+  </div>
+</footer>
+<script defer src="./assets/js/app.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

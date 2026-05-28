@@ -1,0 +1,19 @@
+{
+  "site_title": "日韩高清电影-高清电影片库-高清影片在线观看",
+  "logo": "日韩高清电影",
+  "movie_count": 2000,
+  "detail_page_count": 2000,
+  "category_count": 8,
+  "category_counts": {
+    "日韩精选": 250,
+    "动作犯罪": 250,
+    "爱情剧情": 250,
+    "悬疑惊悚": 250,
+    "科幻奇幻": 250,
+    "喜剧治愈": 250,
+    "历史战争": 250,
+    "热门片库": 250
+  },
+  "cover_rule": "第 N 条影片使用 X = ((N - 1) % 150) + 1.jpg；ZIP 不包含 JPG 图片。",
+  "generated_files": "index.html, categories.html, ranking.html, search.html, category pages, movie detail pages, assets"
+}
